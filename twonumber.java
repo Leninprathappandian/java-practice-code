@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class message {
+public class twonumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String msg = sc.nextLine();
-        System.out.println(msg);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println(a + "\t" + b);
     }
 }

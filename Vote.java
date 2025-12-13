@@ -1,9 +1,10 @@
+
 import java.util.Scanner;
 
-public class message {
+class Vote {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String msg = sc.nextLine();
-        System.out.println(msg);
+        int age = sc.nextInt();
+        System.out.println(age >= 18 ? "Eligible" : "Not Eligible");
     }
 }
